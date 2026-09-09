@@ -1,0 +1,144 @@
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+}
+
+.box {
+    background-color: #b30263;
+    color: rgb(8, 176, 227);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+.box:nth-child(even) {
+    background-color: #2dbff4;
+}
+
+.blog-layout {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+    gap: 15px;
+    height: 50vh;
+}
+
+.header {
+    grid-area: header;
+    background-color: #4e096e;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #0db1bd;
+    color: white;
+    padding: 20px;
+}
+
+.main-content {
+    grid-area: main;
+    background-color: #7ec14b;
+    padding: 20px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #c4b214;
+    color: white;
+    padding: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 15px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 200px 1fr 250px;
+    grid-template-rows: 60px 1fr 50px;
+    grid-template-areas:
+        "header header header"
+        "nav main aside"
+        "footer footer footer";
+    gap: 10px;
+    height: 50vh;
+}
+
+.db-header {
+    grid-area: header;
+    background-color: #11cedc;
+    color: white;
+    padding: 15px;
+}
+
+.db-nav {
+    grid-area: nav;
+    background-color: #0f036d;
+    color: white;
+    padding: 15px;
+}
+
+.db-main {
+    grid-area: main;
+    background-color: #c21c93;
+    padding: 15px;
+}
+
+.db-aside {
+    grid-area: aside;
+    background-color: #c9d1f1;
+    padding: 15px;
+}
+
+.db-footer {
+    grid-area: footer;
+    background-color: #d8ab0b;
+    color: white;
+    padding: 15px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(auto, max-content);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    padding: 15px;
+}

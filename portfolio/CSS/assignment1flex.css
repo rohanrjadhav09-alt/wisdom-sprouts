@@ -1,0 +1,62 @@
+.box {
+    display: flex;
+    background-color: #002b4d;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.box div {
+    background-color: #087bd1;
+    padding: 20px;
+    color: white;
+}
+
+/* 1 */
+.box1 {
+    justify-content: flex-start;
+}
+
+/* 2 */
+.box2 {
+    justify-content: space-between;
+}
+
+/* 3 */
+.box3 div {
+    flex: 1;
+}
+
+/* 4 */
+.box4 div:nth-child(2) {
+    flex: 1;
+}
+
+/* 5 */
+.box5 {
+    justify-content: flex-start;
+}
+
+/* 6 */
+.box6 .orange {
+    flex: 1;
+}
+
+/* 7 */
+.box7 div:first-child {
+    flex: 1;
+}
+
+.box7 .orange {
+    flex: 1;
+    background-color: #ff851b;
+}
+
+/* 8 */
+.box8 {
+    flex-wrap: wrap;
+}
+
+.box8 .orange {
+    flex-basis: 100%;
+    background-color: #ff851b;
+}

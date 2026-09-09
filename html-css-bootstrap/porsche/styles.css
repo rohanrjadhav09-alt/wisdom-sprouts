@@ -1,0 +1,171 @@
+    *{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbarone{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: blue;
+    }
+
+    .logo{
+        display:inline-block;
+        width: 10%;
+        /* float: left; */
+    }
+    .imgLOGO{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-top: 5px;
+        margin-left: 15px;
+
+    }
+    .menus{
+        list-style-type: none;
+        width: 40%;
+        float: right;
+        margin-top: 45px;
+    }
+
+    .navlist{
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .navitem{
+        color: white;
+        text-decoration: none;
+        font-size: 22px;
+    }
+    .navitem:hover{
+        border-bottom: 2px solid white;
+    }
+
+
+    .activeOne{
+        font-weight: 800;
+    }
+    .imgHeader{
+        width: 100%;
+        height: 400px;
+    }
+    .decripCar{
+        font-size: 28px;
+        color: black;
+        width: 80%;
+        margin: 10px auto;
+    }
+    .subHeading{
+        font-size: 40px;
+        background-color: navy;
+        color:white ;
+        text-align: center;
+    }
+    .featureDemo{
+        background-image: linear-gradient(to right #9e8947,#8e7d0d,#723a08);
+        padding: 10PX;
+    }
+    .featureDemo h4{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        margin: 5px;
+    }
+    .featureDemo p{
+            text-align: center;
+            font-size: 25px;
+    }
+    .specification{
+        font-family: Times New Roman;
+        text-align: center;
+        background-color:white;
+        font-size: 26px;
+        margin: 10px;
+    }
+    .specification li{
+        padding: 10px;
+    }
+    body {
+        margin: 0;
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+    }
+
+    #contactSection {
+        background-color: #eeeeee;
+        padding: 50px 20px;
+    }
+
+    #contactSection .subHeading {
+        text-align: center;
+        color: white;
+        margin-bottom: 25px;
+        font-size: 30px;
+    }
+
+    .contactForm {
+        width: 500px;
+        max-width: 100%;
+        margin: auto;
+        padding: 30px;
+
+        background-color: white;
+        border-radius: 15px;
+
+        box-shadow: 0px 5px 20px #999;
+    }
+
+    .contactForm div {
+        margin-bottom: 20px;
+    }
+
+    .labelForm {
+        display: block;
+        margin-bottom: 8px;
+
+        font-weight: bold;
+        color: #333;
+    }
+
+    .inputClass {
+        width: 100%;
+        padding: 12px;
+
+        border: 1px solid #bbb;
+        border-radius: 8px;
+
+        font-size: 15px;
+        outline: none;
+    }
+
+    .inputClass:focus {
+        border: 2px solid black;
+    }
+
+    textarea.inputClass {
+        height: 120px;
+        resize: none;
+    }
+
+    .btnSubmit {
+        width: 100%;
+        padding: 12px;
+
+        background-color: black;
+        color: white;
+
+        border: none;
+        border-radius: 8px;
+
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .btnSubmit:hover {
+        background-color: #c00000;
+    }

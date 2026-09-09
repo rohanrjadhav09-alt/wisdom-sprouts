@@ -1,0 +1,609 @@
+* {
+    font-family: Arial, sans-serif;
+
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: #f2f2f2;
+
+    color: #222;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbarone {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    background-color: blue;
+
+    padding: 5px 20px;
+
+    position: sticky;
+
+    top: 0;
+
+    z-index: 100;
+}
+
+
+.logo {
+    width: 10%;
+}
+
+
+.imgLOGO {
+
+    width: 80px;
+
+    height: 80px;
+
+    border-radius: 50%;
+
+    margin-left: 15px;
+
+    object-fit: cover;
+}
+
+
+/* ================= MENU ================= */
+
+.menus {
+
+    list-style-type: none;
+
+    width: 50%;
+
+    display: flex;
+
+    justify-content: flex-end;
+
+    gap: 20px;
+}
+
+
+.navlist {
+    display: inline-block;
+}
+
+
+.navitem {
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 18px;
+
+    padding: 8px;
+}
+
+
+.navitem:hover {
+
+    border-bottom: 2px solid white;
+
+    color: yellow;
+}
+
+
+/* ================= HEADER ================= */
+
+header {
+
+    text-align: center;
+
+    background-color: #ddd;
+
+    padding-bottom: 25px;
+}
+
+
+.imgHeader {
+
+    width: 100%;
+
+    height: 400px;
+
+    object-fit: cover;
+}
+
+
+.decripCar {
+
+    font-size: 22px;
+
+    color: black;
+
+    width: 80%;
+
+    margin: 20px auto;
+
+    line-height: 1.5;
+}
+
+
+/* ================= HEADING ================= */
+
+.subHeading {
+
+    font-size: 35px;
+
+    background-color: navy;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 10px;
+
+    margin-bottom: 25px;
+}
+
+
+/* ================= FEATURES ================= */
+
+#features {
+
+    padding: 40px 30px;
+}
+
+
+.featureDemo {
+
+    background-image: linear-gradient(
+        to right,
+        #9e8947,
+        #8e7d0d,
+        #723a08
+    );
+
+    color: white;
+
+    padding: 20px;
+
+    margin: 20px auto;
+
+    max-width: 1000px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 5px 12px #999;
+
+    transition: 0.3s;
+}
+
+
+.featureDemo:hover {
+
+    transform: translateY(-5px);
+}
+
+
+.featureDemo h4 {
+
+    text-align: center;
+
+    font-size: 25px;
+
+    margin-bottom: 10px;
+}
+
+
+.featureDemo p {
+
+    text-align: center;
+
+    font-size: 18px;
+
+    line-height: 1.6;
+}
+
+
+/* ================= SPECIFICATION ================= */
+
+#specification {
+
+    padding: 40px 30px;
+}
+
+
+.specification {
+
+    font-family: "Times New Roman";
+
+    text-align: center;
+
+    background-color: white;
+
+    font-size: 22px;
+
+    max-width: 800px;
+
+    margin: auto;
+
+    padding: 20px;
+
+    list-style-position: inside;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 5px 15px #aaa;
+}
+
+
+.specification li {
+
+    padding: 10px;
+
+    border-bottom: 1px solid #ddd;
+}
+
+
+.specification li:last-child {
+
+    border-bottom: none;
+}
+
+
+/* ================= VARIANTS ================= */
+
+#variantsID {
+
+    padding: 40px 20px;
+
+    background-color: #eeeeee;
+}
+
+
+.variantsContainer {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+
+    margin-top: 30px;
+}
+
+
+.variantCard {
+
+    width: 300px;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    text-align: center;
+
+    box-shadow: 0px 5px 15px #999;
+
+    transition: 0.3s;
+}
+
+
+.variantCard:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: 0px 10px 25px #777;
+}
+
+
+.variantCard img {
+
+    width: 100%;
+
+    height: 200px;
+
+    object-fit: cover;
+}
+
+
+.variantCard h3 {
+
+    font-size: 21px;
+
+    color: navy;
+
+    padding: 15px 10px 5px;
+}
+
+
+.variantCard p {
+
+    font-size: 16px;
+
+    padding: 10px 20px;
+
+    line-height: 1.5;
+
+    color: #444;
+}
+
+
+.variantBtn {
+
+    background-color: blue;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    padding: 10px 20px;
+
+    margin: 10px 0 20px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+
+.variantBtn:hover {
+
+    background-color: #c00000;
+}
+
+
+/* ================= CONTACT ================= */
+
+#contactSection {
+
+    background-color: #eeeeee;
+
+    padding: 50px 20px;
+}
+
+
+.contactForm {
+
+    width: 500px;
+
+    max-width: 100%;
+
+    margin: auto;
+
+    padding: 30px;
+
+    background-color: white;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 5px 20px #999;
+}
+
+
+.contactForm div {
+
+    margin-bottom: 20px;
+}
+
+
+.labelForm {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-weight: bold;
+
+    color: #333;
+}
+
+
+.inputClass {
+
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #bbb;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+
+    outline: none;
+}
+
+
+.inputClass:focus {
+
+    border: 2px solid blue;
+}
+
+
+textarea.inputClass {
+
+    height: 120px;
+
+    resize: none;
+}
+
+
+/* ================= SUBMIT BUTTON ================= */
+
+.btnSubmit {
+
+    width: 100%;
+
+    padding: 12px;
+
+    background-color: black;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+
+.btnSubmit:hover {
+
+    background-color: #c00000;
+}
+
+
+/* ================= GO TO TOP ================= */
+
+.GoToTop {
+
+    position: fixed;
+
+    right: 20px;
+
+    bottom: 20px;
+}
+
+
+.GoToTop a {
+
+    width: 50px;
+
+    height: 50px;
+
+    background-color: black;
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    text-decoration: none;
+
+    font-size: 20px;
+
+    box-shadow: 0px 3px 10px #777;
+}
+
+
+.GoToTop a:hover {
+
+    background-color: red;
+
+    transform: scale(1.1);
+}
+
+
+/* ================= FOOTER ================= */
+
+footer {
+
+    background-color: black;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    font-size: 16px;
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 700px) {
+
+    .navbarone {
+
+        flex-direction: column;
+
+        gap: 15px;
+
+        padding-bottom: 15px;
+    }
+
+
+    .logo {
+
+        width: auto;
+    }
+
+
+    .menus {
+
+        width: 100%;
+
+        justify-content: center;
+
+        flex-wrap: wrap;
+
+        gap: 8px;
+    }
+
+
+    .navitem {
+
+        font-size: 15px;
+    }
+
+
+    .imgHeader {
+
+        height: 250px;
+    }
+
+
+    .decripCar {
+
+        font-size: 17px;
+
+        width: 90%;
+    }
+
+
+    .subHeading {
+
+        font-size: 28px;
+    }
+
+
+    .featureDemo p {
+
+        font-size: 16px;
+    }
+
+
+    .variantCard {
+
+        width: 90%;
+
+        max-width: 350px;
+    }
+
+}

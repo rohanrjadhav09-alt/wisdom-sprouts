@@ -1,0 +1,42 @@
+ body {
+            margin: 0;
+            background-color: lightyellow;
+        }
+
+        .navbar {
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 30px;
+        }
+
+        .logo {
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .links {
+            display: flex;
+            gap: 35px;
+            align-items: center;
+        }
+
+        .links a {
+            font-size: 18px;
+            color: black;
+            
+        }
+
+        .links button {
+            padding: 8px 15px;
+            font-size: 16px;
+        }
+
+        .imagecon{
+            display: flex;
+            justify-content: center;
+        }
+      .btn{
+        padding: 0 50;
+      }

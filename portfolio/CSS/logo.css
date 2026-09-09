@@ -1,0 +1,80 @@
+
+.gradLinear{
+    background-image: linear-gradient(to right,#ffffa0, #ffc0cb);
+
+}
+.heroSection{
+    height: 450px;
+}
+.leftSide{
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+}
+.rightSide{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+.oneedirection {
+    
+    display: block;
+    width: 350px;       
+    height: 350px;
+    border-radius: 100%;
+    object-fit: cover;  
+    
+    position: absolute;
+    right: -50px;      
+    top: 50%;          
+    transform: translateY(-50%);
+}
+.leftSide h2{
+    padding-top: 80px;
+    text-align: center;
+}
+.leftSide p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+}
+.btnNew {
+    border: 1px solid pink;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+.btnNew:hover{
+    background-image: linear-gradient(to right,#ffff7d, #ff95a6);
+}
+
+
+/* Parent container holding both left and right sides */
+.heroSection {
+  display: flex;
+  align-items: center;         /* Vertically centers both columns */
+  justify-content: space-between; /* Pushes leftSide to the left and rightSide to the right */
+  width: 100%;
+}
+
+/* Left content side */
+.leftSide {
+  flex: 1;                     /* Takes up available space */
+}
+
+/* Right image container side */
+.rightSide {
+  display: flex;
+  justify-content: center;     /* Centers the image horizontally inside rightSide */
+  align-items: center;         /* Centers the image vertically inside rightSide */
+}
+
+/* The actual image inside rightSide */
+.oneedirection {
+  max-width: 100%;             /* Prevents image from overflowing */
+  height: auto;
+}
+
+
+  
+
+

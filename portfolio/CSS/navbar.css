@@ -1,0 +1,24 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbarone{
+    background-color: rgb(206, 217, 217);
+    height:100px;
+    width: 100px;
+    display:visibility;
+}
+.logo{
+    display: inline-block;
+    width: 30%;
+}
+.imgLOGO{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    
+
+}

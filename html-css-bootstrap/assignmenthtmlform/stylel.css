@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    font-family: Arial;
+    background-color: white;
+}
+
+.main {
+    width: 800px;
+    height: 500px;
+    margin: 15px auto;
+    display: flex;
+    border-top: 3px solid #8b634d;
+}
+
+
+.left {
+    width: 50%;
+    background-color: #080d10;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.left h1 {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 55px;
+    color: #e1306c;
+}
+
+.left h2 {
+    margin-top: 20px;
+    line-height: 2;
+}
+
+.left span {
+    color: #ff3040;
+}
+
+.photo {
+    font-size: 50px;
+    margin-top: 20px;
+}
+.photo img{
+        height: 40px;
+        width: 60px;
+
+}
+
+
+.right {
+    width: 50%;
+    background-color: #151f26;
+    padding: 80px 32px;
+    border-left: 1px solid #53616b;
+}
+
+.login h3 {
+    color: white;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0;
+    border: 1px solid #60717d;
+    border-radius: 12px;
+    background-color: transparent;
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #19549b;
+    color: white;
+}
+
+.login a {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #52606a;
+    margin: 25px 0;
+}
+
+.facebook {
+    background-color: transparent;
+    border: 1px solid #40515d;
+}
+
+.create {
+    background-color: transparent;
+    border: 1px solid #2685d8;
+    color: #2685d8;
+}

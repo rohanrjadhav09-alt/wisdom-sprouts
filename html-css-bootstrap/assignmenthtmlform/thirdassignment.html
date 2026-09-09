@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #4169e1;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 65%;
+    margin: 40px auto;
+    padding: 25px 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px gray;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+h3 {
+    font-size: 14px;
+    color: #777;
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 12px;
+}
+
+.row div {
+    width: 33.33%;
+}
+
+label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #444;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+button {
+    width: 150px;
+    padding: 9px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 3px;
+    background-color: #4169e1;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3155c5;
+}
+    </style>
+   
+</head>
+<body>
+
+    <div class="container">
+
+        <h2>Registration</h2>
+
+        <h3>Personal Details</h3>
+
+        <div class="row">
+            <div>
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name">
+            </div>
+
+            <div>
+                <label>Date of Birth</label>
+                <input type="date">
+            </div>
+
+            <div>
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email">
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <label>Mobile number</label>
+                <input type="text" placeholder="Enter mobile number">
+            </div>
+
+            <div>
+                <label>Gender</label>
+                <input type="text" placeholder="Enter your gender">
+            </div>
+
+            <div>
+                <label>Occupation</label>
+                <input type="text" placeholder="Enter occupation">
+            </div>
+        </div>
+
+        <h3>Identity Details</h3>
+
+        <div class="row">
+            <div>
+                <label>ID Type</label>
+                <input type="text" placeholder="Enter ID type">
+            </div>
+
+            <div>
+                <label>ID Number</label>
+                <input type="text" placeholder="Enter ID number">
+            </div>
+
+            <div>
+                <label>Issue Authority</label>
+                <input type="text" placeholder="Enter issue department">
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <label>Issue Date</label>
+                <input type="date">
+            </div>
+
+            <div>
+                <label>Issue State</label>
+                <input type="text" placeholder="Enter ID issue state">
+            </div>
+
+            <div>
+                <label>Expiry Date</label>
+                <input type="date">
+            </div>
+        </div>
+
+        <button>Next →</button>
+
+    </div>
+
+</body>
+</html>

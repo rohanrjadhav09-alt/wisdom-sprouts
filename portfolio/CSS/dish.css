@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(230,230,230);
+}
+.headerOne h1{
+    text-align: center;
+    margin-top: 15px;
+}
+.headerIMG{
+     /* width: 100vw; */
+    width: 100vw;
+    /* height: 35vh; */
+    /* height: 26rem; */ 
+    height: 30vw;
+}
+.uniqueExp{
+    text-align: center;
+    width: 50%;
+    margin: 30px auto;
+    font-size: 25px;
+}
+.ingrident{
+     height: 550px;
+    background-image: url("./assest/backgroundwhite.image");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.ingrident h2{
+    /* text-align: center; */
+    margin-left: 300px;
+    padding-top: 40px;
+    font-size: 40px;
+    font-weight: 900;
+}

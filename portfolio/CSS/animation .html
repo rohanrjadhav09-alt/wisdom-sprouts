@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(42, 108, 108);
+    align:center
+     
+}
+.scaleBox:hover{
+    transform: scale(0.5,0.5);
+}
+.rotateBox:hover{
+    transform: rotate(60deg);
+}
+.skewBox{
+    transform: skew(60deg);
+}
+.translateBox{
+    transform: translate(500px);
+}
+ .BoxTwo {
+            width: 100px;
+            height: 50px;
+            background-color: pink;
+            font-size: 15px;
+            transition: background-color 4s 10s, font-size 3s 10s, color 7s 10s, transform 5s 10s;
+        /* transition: all 4s 10s */
+        }   
+
+        .BoxTwo:hover {
+            background-color: rgb(108, 123, 254);
+            font-size: 50px;
+            color: white;
+            transform: translateX(500px);
+        }
+.Boxthree{
+     height: 50px;
+    width: 110px;
+    background-color: beige;
+    /* animation-name:animationOne; */
+    /* animation-duration: 6s;
+    animation-count:infinite; */
+    animation: animationOne 3s 5s ease infinite;
+}
+@keyframes animationOne{
+    0%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: azure;
+    }
+    100%{
+        background-color: blueviolet;
+    }   
+}
+.heartblink{
+        color: red;
+        animation: heartblinkOne  1s  infinite ;
+}
+    @keyframes heartblinkOne{
+        0%{
+            font-size: 20px;
+        }
+       
+        100%{
+            font-size: 90px;
+        }
+    }
+    .circle{
+        color: black;
+        animation: circle 4s infinite;
+    }
+    @keyframes circle{
+        0%{
+            font-size: 10px;
+            color: brown;
+        }
+        50%{
+            font-size: 100px;
+            color: red;
+        }
+    }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="circle">
+        <i class="fa-solid fa-circle"></i>
+    </div>
+    <h3>Animation</h3>
+    <div class="heartblink">
+    <i class="fa-solid fa-heart"></i>
+</div>
+    <div class="Boxthree"></div>
+    <h3>Transition</h3>
+    <div class="BoxTwo">Rohan</div>
+    <h3>transform property</h3>
+    <div class="box"></div>
+    <div class="box scaleBox"></div>
+    <div class="box rotateBox"></div>
+    <div class="box skewBox"></div>
+    <div class="box translateBox"></div>
+
+</body>
+</html>
